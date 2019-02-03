@@ -1,0 +1,11 @@
+/Users/macbook/Projects/DZ/DZ/bin/Debug/netcoreapp2.0/DZ.deps.json
+/Users/macbook/Projects/DZ/DZ/bin/Debug/netcoreapp2.0/DZ.runtimeconfig.json
+/Users/macbook/Projects/DZ/DZ/bin/Debug/netcoreapp2.0/DZ.runtimeconfig.dev.json
+/Users/macbook/Projects/DZ/DZ/bin/Debug/netcoreapp2.0/DZ.dll
+/Users/macbook/Projects/DZ/DZ/bin/Debug/netcoreapp2.0/DZ.pdb
+/Users/macbook/Projects/DZ/DZ/obj/Debug/netcoreapp2.0/DZ.csprojAssemblyReference.cache
+/Users/macbook/Projects/DZ/DZ/obj/Debug/netcoreapp2.0/DZ.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/DZ/DZ/obj/Debug/netcoreapp2.0/DZ.AssemblyInfoInputs.cache
+/Users/macbook/Projects/DZ/DZ/obj/Debug/netcoreapp2.0/DZ.AssemblyInfo.cs
+/Users/macbook/Projects/DZ/DZ/obj/Debug/netcoreapp2.0/DZ.dll
+/Users/macbook/Projects/DZ/DZ/obj/Debug/netcoreapp2.0/DZ.pdb

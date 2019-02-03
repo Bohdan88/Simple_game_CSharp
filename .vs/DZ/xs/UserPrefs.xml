@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{009F9F00-A394-463A-84BB-49C70DF69AC0}|Default">
+  <MonoDevelop.Ide.ItemProperties.DZ PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DZ/Program.cs">
+    <Files>
+      <File FileName="DZ/Program.cs" Line="18" Column="27" />
+      <File FileName="DZ/test.txt" Line="1" Column="1" />
+      <File FileName="DZ Status" />
+      <File FileName="DZ.diff" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
