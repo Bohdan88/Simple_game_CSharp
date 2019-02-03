@@ -5,22 +5,11 @@ namespace IMJunior
 {
     class Program
     {
-        static int age = 0, strength = 0, agility = 0, intelligence = 0, points = 10;
+        static int age = 0, strength = 0, agility = 0, intelligence = 0, points = 25;
         static string strengthVisual = string.Empty, agilityVisual = string.Empty, intelligenceVisual = string.Empty;
 
 
-        static void noRepeat()
-        {
-
-            strengthVisual = string.Empty;
-            agilityVisual = string.Empty;
-            intelligenceVisual = string.Empty;
-            strengthVisual = strengthVisual.PadLeft(strength, '#').PadRight(10, '_');
-            agilityVisual = agilityVisual.PadLeft(agility, '#').PadRight(10, '_');
-            intelligenceVisual = intelligenceVisual.PadLeft(intelligence, '#').PadRight(10, '_');
-
-        }
-
+       
         static int[] Reverse(int[] numbers)
         {
             int[] result = new int[numbers.Length];
@@ -92,9 +81,9 @@ namespace IMJunior
                 intelligenceVisual = intelligenceVisual.PadLeft(intelligence, '#').PadRight(10, '_');
 
                 Console.WriteLine("Points - {0}", points);
-      Console.WriteLine("Age - {0}\nStrength - [{1}]\nStamina - [{2}]\nIntelligence - [{3}]", age, strengthVisual, agilityVisual, intelligenceVisual);
+      Console.WriteLine("Age - {0}\nStrength - [{1}]\nAgility - [{2}]\nIntelligence - [{3}]", age, strengthVisual, agilityVisual, intelligenceVisual);
 
-       Console.WriteLine("Which feature do you change?");
+       Console.WriteLine("Which feature do you wanna to change?");
        string subject = Console.ReadLine();
 
        Console.WriteLine(@"What do you want to implement? +\-");
@@ -112,7 +101,7 @@ namespace IMJunior
            case "strength":
                         Charik("+", operandPoints, strength);
                         break;
-                    case "stamina":
+                    case "agility":
                         Charik("+", operandPoints, agility);
                         break;
                         
@@ -136,7 +125,7 @@ namespace IMJunior
             strengthVisual = strengthVisual.PadLeft(strength, '#').PadRight(10, '_');
             agilityVisual = agilityVisual.PadLeft(agility, '#').PadRight(10, '_');
             intelligenceVisual = intelligenceVisual.PadLeft(intelligence, '#').PadRight(10, '_');
-            Console.WriteLine("Age - {0}\nStrength - [{1}]\nStamina - [{2}]\nIntelligence - [{3}]", age, strengthVisual, agilityVisual, intelligenceVisual);
+            Console.WriteLine("Age - {0}\nStrength - [{1}]\nagility - [{2}]\nIntelligence - [{3}]", age, strengthVisual, agilityVisual, intelligenceVisual);
 
      }
 
